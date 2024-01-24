@@ -2,11 +2,13 @@ import '../styles/App.css';
 import Navbar from './Navbar';
 import ContactList from './ContactList';
 import CreateContacts from './CreateContacts';
+import Calculator from './Calculator';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom/cjs/react-router-dom.min';
 
 
 function App() {
   return (
+    <Calculator/>
     <Router>
       <div className="App">
       <div className="container">
