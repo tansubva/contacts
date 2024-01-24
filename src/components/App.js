@@ -8,11 +8,12 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom/cjs/rea
 
 function App() {
   return (
-    <Calculator/>
     <Router>
       <div className="App">
       <div className="container">
         <Navbar />
+        <Calculator/>
+
         <Switch>
           <Route path='/contactList'>
             <ContactList/>
