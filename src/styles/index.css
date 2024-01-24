@@ -1,0 +1,154 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* Body */
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  width: 1000px;
+  padding: 2rem 4rem;
+  box-shadow: 1px 2px 3px gray;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}
+.navbar div {
+  width: 30rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar div h2, a {
+  color: rgb(143, 174, 254);
+  text-decoration: none;
+}
+.navbar div h2:hover {
+  color: rgb(67, 120, 254);
+  cursor: pointer;
+}
+ .navbar > h2:nth-child(1) {
+  background-color: rgb(143, 174, 254);
+  color: white;
+  border-radius: 2rem;
+  padding: 1rem;
+ }
+
+ /* contacts information */
+ .contactList {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 4rem;
+  margin-top: 4rem;
+ }
+ .contactPreview {
+  width: 200px;
+  height: 300px;
+  background-color: rgb(143, 174, 254);
+  color: white;
+  box-shadow: 1px 2px 3px gray;
+  border-radius: 2rem;
+  padding: 2rem;
+ }
+ .contactPreview img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+ }
+ .contactPreview button {
+  width: 80px;
+  height: 30px;
+  background-color: white;
+  color: gray;
+  border-radius: .5rem;
+  border: none;
+  margin: auto .5rem;
+ }
+ .contactPreview button:hover {
+  background-color: rgb(91, 138, 255);
+  color: white;
+  cursor: pointer;
+ }
+/* contacts creation */
+.createContacts h1 {
+  color: gray;
+}
+.contactsForm > div {
+  margin-top: 3rem;
+}
+.left, .right {
+  width: 400px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.right {
+  margin-top: 2rem;
+}
+.imgExamp {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: .5px solid gray;
+  background-size: cover;
+}
+#photoInput {
+  display: none;
+}
+#photoInputLabel {
+  margin-top: 1rem;
+  padding-top: .5rem;
+  text-align: center;
+  font-size: 24px;
+  width: 300px;
+  height: 40px;
+  background-color: rgb(143, 174, 254);
+  color: white;
+  border-radius: 10px;
+}
+#photoInputLabel:hover {
+  background-color: rgb(91, 138, 255);
+  cursor: pointer;
+}
+.createContacts #name, #phoneNumber {
+  width: 200px;
+  height: 40px;
+  margin-bottom: 2rem;
+  padding-left: 1rem;
+  border: 1px solid gray;
+  border-radius: 10px;
+}
+#btnSubmit {
+  width: 200px;
+  height: 40px;
+  border: none;
+  border-radius: 10px;
+  background-color: rgb(143, 174, 254);
+  color: white;
+  font-size: 20px;
+  margin-bottom: 2rem;
+}
+#btnSubmit:hover {
+  background-color: rgb(91, 138, 255);
+  cursor: pointer;
+}

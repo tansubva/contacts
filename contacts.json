@@ -1,0 +1,40 @@
+{
+  "contacts": [
+    {
+      "id": 1,
+      "img": "../images/jane.jpg",
+      "name": "Jane",
+      "phoneNum": "374-2312-245"
+    },
+    {
+      "id": 2,
+      "img": "./src/images/john.jpg",
+      "name": "John",
+      "phoneNum": "234-0347-284"
+    },
+    {
+      "id": "0b04",
+      "img": "blob:http://localhost:3000/e024c68d-8782-4d81-af2e-9f788bb15358",
+      "name": "adfas",
+      "phoneNum": "123123"
+    },
+    {
+      "id": "b6b9",
+      "img": "blob:http://localhost:3000/bf84ff29-048e-43b6-a915-ed0cbf47c9d2",
+      "name": "tansu",
+      "phoneNum": "1231231"
+    },
+    {
+      "id": "2e75",
+      "img": "blob:http://localhost:3000/435ede90-ebee-41a8-b75d-70d3257e8fad",
+      "name": "Michael",
+      "phoneNum": "123123"
+    },
+    {
+      "id": "73da",
+      "img": "blob:http://localhost:3000/60c111bf-48a8-4e32-83f4-a51baa86e145",
+      "name": "tansubva",
+      "phoneNum": "1231321"
+    }
+  ]
+}
